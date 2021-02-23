@@ -1,0 +1,32 @@
+.about-section-history{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+
+   margin: 50px 0px  120px 0px;
+}
+.div-1{
+   flex: 1 1 150px ;
+}
+.div-2{
+   flex: 1 ;
+}
+
+.div-2 h3{
+color: #ef4040;
+}
+.links{
+   padding: 3px;
+   background: #ef4040;
+   display: inline-block;
+   border-radius: 50%;
+   margin: 10px;
+}
+
+@media(max-width: 720px){
+   .about-section-history{
+     flex-direction: column;
+     text-align: center;
+   }
+}

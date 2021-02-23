@@ -1,0 +1,77 @@
+/*javascript*/
+.galery p {
+   display: none;
+}
+
+.galery p.ativeEnvent {
+   display: block !important;
+   animation: slidshow 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+   ;
+}
+
+@keyframes slidshow {
+   from {
+      opacity: 0;
+      transform: translate3d(-30px, 0, 0);
+
+   }
+
+   to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+   }
+}
+
+.dayle-div h3 {
+   cursor: pointer;
+}
+
+.dayle-div h3::after {
+   content: ' ⬇ ';
+   margin-left: 10px;
+}
+
+.dayle-div h3.ativeAcordion::after {
+   content: ' ⬆ ';
+}
+
+.dayle-div p {
+   display: none;
+}
+.dayle-div p.ativeAcordion {
+   display: block;
+   animation: slideDown .5s forwards;
+}
+
+@keyframes slideDown{
+   from{
+      opacity: 0;
+      max-height: 0;
+
+   }
+   to{
+      opacity: 1;
+      max-height: 300px;
+
+   }
+}
+.js-tablescontent p{
+   display: none;
+}
+.js-tablescontent p.ativeClass{
+   display: block;
+   animation: slidshow .5s forwards;
+}
+
+
+/*animacao scroll*/
+.js-scroll{
+   opacity: 0;
+   transition: .3s;
+   transform: translate3d(-60px, 0, 0);
+
+}
+.js-scroll.ativo{
+   opacity: 1;
+   transform: translate3d(0, 0, 0);
+}
