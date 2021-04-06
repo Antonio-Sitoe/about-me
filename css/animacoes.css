@@ -35,43 +35,50 @@
    content: ' ⬆ ';
 }
 
-.dayle-div p {
+[data-dayle="div"]  p {
    display: none;
 }
-.dayle-div p.ativeAcordion {
+
+[data-dayle="div"] p.ativeAcordion {
    display: block;
    animation: slideDown .5s forwards;
 }
 
-@keyframes slideDown{
-   from{
+@keyframes slideDown {
+   from {
       opacity: 0;
       max-height: 0;
 
    }
-   to{
+
+   to {
       opacity: 1;
       max-height: 300px;
 
    }
 }
-.js-tablescontent p{
+
+[data-tables="content"] p {
    display: none;
 }
-.js-tablescontent p.ativeClass{
+
+[data-tables="content"] p.ativeClass {
    display: block;
    animation: slidshow .5s forwards;
 }
 
 
 /*animacao scroll*/
-.js-scroll{
-   opacity: 0;
-   transition: .3s;
-   transform: translate3d(-60px, 0, 0);
+@media(max-width:800px) {
+   [data-js="scroll"] {
+      opacity: 0;
+      transition: .3s;
+      transform: translate3d(-60px, 0, 0);
 
-}
-.js-scroll.ativo{
-   opacity: 1;
-   transform: translate3d(0, 0, 0);
+   }
+
+   [data-js="scroll"].ativo {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+   }
 }
