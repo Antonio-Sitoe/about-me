@@ -22,16 +22,16 @@
    }
 }
 
-.dayle-div h3 {
+[data-dayle="div"] h3 {
    cursor: pointer;
 }
 
-.dayle-div h3::after {
+[data-dayle="div"] h3::after {
    content: ' ⬇ ';
    margin-left: 10px;
 }
 
-.dayle-div h3.ativeAcordion::after {
+[data-dayle="div"] h3.ativeAcordion::after {
    content: ' ⬆ ';
 }
 
