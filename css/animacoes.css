@@ -73,7 +73,7 @@
    [data-js="scroll"] {
       opacity: 0;
       transition: .3s;
-      transform: translate3d(-60px, 0, 0);
+      transform: translate3d(-20px, 0, 0);
 
    }
 

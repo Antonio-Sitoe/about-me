@@ -13,14 +13,16 @@
 <body>
    <header>
       <div class="container">
-         <nav>
+         <nav data-nav>
             <div>
                <a href="index.html" class="logo">
                   <img src="assets/0xbtc.svg">
                </a>
             </div>
 
-            <ul>
+            <button data-menu="button" aria-controls="menu" aria-expanded="false"></button>
+
+            <ul data-menu="lista">
                <li><a href="">Home</a></li>
                <li><a href="project.html">Project</a></li>
                <li><a href="service.html">Service</a></li>
@@ -28,13 +30,6 @@
                <li><button class="btn" data-btn="btnModal">Register</button></li>
             </ul>
          </nav>
-         <ul class="menu-hamburger-aberto ">
-            <li><a href="">Home</a></li>
-            <li><a href="project.html">Project</a></li>
-            <li><a href="service.html">Service</a></li>
-            <li><a href="projeDaily.html">Project Daily</a></li>
-            <li><button class="btn lite">Register</button></li>
-         </ul>
       </div>
    </header>
    <div class="modal-overlay">
@@ -65,8 +60,8 @@
             <img src="assets/idea.svg" alt="" id="svghomepage">
          </div>
          <div class="section-header-2">
-            <h4>Hello im agetha</h4>
-            <h1>Visual Designer</h1>
+            <h4>Hello, Eu sou Antonio Sitoe</h4>
+            <h1>Front-end Developer</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate rem ex aliquid blanditiis ut enim
                voluptates sed quas saepe, at facere natus numquam, ullam dolor minima velit doloremque commodi
                consequatur!
@@ -103,7 +98,6 @@
             </section>
             <section class="numbers" data-js="scroll">
          
-               <section class="numbers js-scroll">
                   <div class="number-1">
                      <h1 class="numbers-h1">12</h1>
                      <h5>Year Experience</h5>
