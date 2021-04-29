@@ -16,18 +16,19 @@
 <body>
    <header>
       <div class="container">
-         <nav>
+         <nav data-nav>
             <div>
                <a href="index.html" class="logo">
                   <img src="assets/0xbtc.svg">
                </a>
             </div>
 
-            <ul>
-               <li><a href="index.html">Home</a></li>
-               <li><a href="project.html">Project</a></li>
-               <li><a href="service.html">Service</a></li>
-               <li><a href="projeDaily.html">Project Daily</a></li>
+            <button data-menu="button" aria-controls="menu" aria-expanded="false"></button>
+
+            <ul data-menu="lista">
+               <li><a href="">Home</a></li>
+               <li><a href="contact.html">Contacto</a></li>
+               <li><a href="service.html">Servicos</a></li>
                <li><button class="btn" data-btn="btnModal">Register</button></li>
             </ul>
          </nav>
@@ -82,7 +83,6 @@
             <a href="index.html" class="logo">
                <img src="assets/0xbtc.svg" alt=""></a>
             <ul>
-               <li><a href="index.html">Home</a></li>
                <li><a href="about.html">About</a></li>
                <li><a href="contact.html">Contact</a></li>
                <li><a href="404.html">404 error</a></li>

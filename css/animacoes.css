@@ -35,14 +35,7 @@
    content: ' ⬆ ';
 }
 
-[data-dayle="div"]  p {
-   display: none;
-}
 
-[data-dayle="div"] p.ativeAcordion {
-   display: block;
-   animation: slideDown .5s forwards;
-}
 
 @keyframes slideDown {
    from {
