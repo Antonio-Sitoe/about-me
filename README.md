@@ -1,4 +1,11 @@
-# Loja Design
- Esse e o primeiro projecto , da lista dos projectos, feito na mao e com boas praticas de HTML,CSS E JAVASCRIPT
+# Antonio sitoe
 
-<a href="https://antonio-sitoe.github.io/Loja-Design/">Link LOJA DESIGN</a>
+Ola seja bem vindo ao meu portifolio!
+E aqui onde eu coloco para o mundo ver as minhas experiencias na area de tecnologia.
+espero que tires proveito do material que disponho aqui.
+
+#Mui Obrigado :)
+
+
+
+<a href="https://antonio-sitoe.github.io/about-me/">About-me</a>
