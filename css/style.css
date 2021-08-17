@@ -5,6 +5,6 @@
 @import './navegacao-header.css';
 @import './numeros.css';
 
-.imgs-galery {
+.imgs-galery img {
     width: 300px;
 }
