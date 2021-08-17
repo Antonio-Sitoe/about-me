@@ -304,9 +304,8 @@ ul li a:hover {
    background: #202020;
    margin: 10px;
 
-   display: flex;
-   align-items: top;
-   justify-content: space-between;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
 .galery div div {
