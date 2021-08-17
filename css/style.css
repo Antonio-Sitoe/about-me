@@ -4,3 +4,7 @@
 @import './about.css';
 @import './navegacao-header.css';
 @import './numeros.css';
+
+.imgs-galery {
+    width: 300px;
+}
